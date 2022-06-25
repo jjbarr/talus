@@ -1,0 +1,17 @@
+[package]
+name = "talus"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "talus"
+path = "src/lib.rs"
+
+[[bin]]
+name = "talus"
+path = "src/main.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.52"
+thiserror = "1.0.30"
